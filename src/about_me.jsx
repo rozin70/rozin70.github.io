@@ -557,8 +557,6 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
               <LinkBtn href="https://github.com/rozin70">GitHub</LinkBtn>
               <LinkBtn href="https://scholar.google.com/citations?user=KNPyB20AAAAJ&hl=en">Google Scholar</LinkBtn>
               <LinkBtn href="https://www.linkedin.com/in/rozin1/">LinkedIn</LinkBtn>
-              <LinkBtn href="https://github.com/rozin70">nanoHUB</LinkBtn>
-              <LinkBtn href="https://github.com/rozin70">Tutorial</LinkBtn>
             </div>
           </Card>
 
