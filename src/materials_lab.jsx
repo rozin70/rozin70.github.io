@@ -4446,7 +4446,7 @@ function MLFFSection() {
   ];
 
   return (
-    <Card color={T.ff_mlff} title="Machine Learning Force Fields (MLFF)" formula="E = NN(descriptors({rᵢ}))   F = −∂E/∂rᵢ">
+    <Card color={T.ff_mlff} title="Finite Element Analysis (MLFF)" formula="E = NN(descriptors({rᵢ}))   F = −∂E/∂rᵢ">
       <div style={{ background: "#fffbeb", border: "1.5px solid #f59e0b33", borderRadius: 10, padding: "12px 16px", marginBottom: 14 }}>
         <div style={{ fontSize: 12, fontWeight: 700, color: "#b45309", marginBottom: 4 }}>Simple Analogy</div>
         <div style={{ fontSize: 12, lineHeight: 1.8, color: T.ink }}>
@@ -14201,7 +14201,7 @@ export default function MaterialsLab({ initialModule = null, blogMode = false })
         fontSize: 12,
         color: shell.muted,
       }}>
-        Developed by <span style={{ fontWeight: 700, color: shell.ink }}>Md Habibur Rahman</span> {"\u00B7"} School of Materials Engineering, Purdue University {"\u00B7"} West Lafayette, IN, USA {"\u00B7"} <a href="mailto:rahma103@purdue.edu" style={{ color: currentModule?.color || T.eo_e, textDecoration: "none" }}>rahma103@purdue.edu</a>
+        Developed by <span style={{ fontWeight: 700, color: shell.ink }}>Enamul Hasan Rozin</span> {"\u00B7"} School of Materials Engineering, Purdue University {"\u00B7"} Utica, NY, USA {"\u00B7"} <a href="mailto:enamulrozin4@gmail.com" style={{ color: currentModule?.color || T.eo_e, textDecoration: "none" }}>enamulrozin4@gmail.com</a>
       </div>
 
       {/* Module content */}
