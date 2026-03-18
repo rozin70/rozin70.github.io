@@ -539,26 +539,26 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
       {tab === "overview" && (
         <div>
           <Card style={{ textAlign: "center", padding: "36px 24px" }}>
-            <img src="/habibur.jpeg" alt="Md Habibur Rahman" style={{
+            <img src="/habibur.jpeg" alt="Enamul Hasan Rozin" style={{
               width: 110, height: 110, borderRadius: "50%", objectFit: "cover",
               margin: "0 auto 16px", display: "block",
               border: `3px solid ${T.accent}`,
               boxShadow: `0 4px 20px ${T.accent}25`,
             }} />
-            <div style={{ fontSize: 28, fontWeight: 900, marginBottom: 4 }}>Md Habibur Rahman</div>
+            <div style={{ fontSize: 28, fontWeight: 900, marginBottom: 4 }}>Enamul Hasan Rozin</div>
             <div style={{ fontSize: 14, color: T.muted, marginBottom: 12 }}>
-              PhD Candidate, School of Materials Engineering, Purdue University
+              Mechanical Engineer • Air Resources Engineer Trainee, NYSDEC
             </div>
             <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap", marginBottom: 16 }}>
               <LinkBtn href="mailto:rahma103@purdue.edu">rahma103@purdue.edu</LinkBtn>
               <LinkBtn href="mailto:imd.habiburrahman@gmail.com">imd.habiburrahman@gmail.com</LinkBtn>
             </div>
             <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
-              <LinkBtn href="https://github.com/msehabibur">GitHub</LinkBtn>
+              <LinkBtn href="https://github.com/rozin70">GitHub</LinkBtn>
               <LinkBtn href="https://scholar.google.com/citations?user=vkAPzB0AAAAJ&hl=en">Google Scholar</LinkBtn>
               <LinkBtn href="https://www.linkedin.com/in/habibur-rahman-55a932120/">LinkedIn</LinkBtn>
               <LinkBtn href="https://nanohub.org/members/274968/contributions">nanoHUB</LinkBtn>
-              <LinkBtn href="https://github.com/msehabibur/DeepMSE">Tutorial</LinkBtn>
+              <LinkBtn href="https://github.com/rozin70/DeepMSE">Tutorial</LinkBtn>
             </div>
           </Card>
 
@@ -795,10 +795,10 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
         <div>
           <SectionTitle color={T.amber}>Awards & Honors</SectionTitle>
           {[
-            { title: "2025 AI/ML for Microscopy Hackathon Winner — Toyota Research Institute Prize", org: "DeepScan Pro", color: T.green, link: "https://kaliningroup.github.io/mic_hackathon_2/awards/", github: "https://github.com/msehabibur/mic-hackathon-25" },
+            { title: "2025 AI/ML for Microscopy Hackathon Winner — Toyota Research Institute Prize", org: "DeepScan Pro", color: T.green, link: "https://kaliningroup.github.io/mic_hackathon_2/awards/", github: "https://github.com/rozin70/mic-hackathon-25" },
             { title: "2025 NanoArtography Competition Winner", org: "Promoting nanoscience through art", color: T.red, link: "https://www.nanoartography.org/2025" },
             { title: "2025 MRS Graduate Student Award", org: "Materials Research Society, Boston", color: T.amber, link: "https://www.mrs.org/advancing-careers/award-central/spring-awards/graduate-student-awards/past-recipients" },
-            { title: "2025 LLM Hackathon for Applications in Materials Science & Chemistry Winner — Abstrax Prize", org: "LLM Hackathon for Materials Science & Engineering", color: T.pink, link: "https://llmhackathon.github.io/awards/", github: "https://github.com/msehabibur/gcxgc_peakcards" },
+            { title: "2025 LLM Hackathon for Applications in Materials Science & Chemistry Winner — Abstrax Prize", org: "LLM Hackathon for Materials Science & Engineering", color: T.pink, link: "https://llmhackathon.github.io/awards/", github: "https://github.com/rozin70/gcxgc_peakcards" },
             { title: "2025 Vashti L. Magoon Research Excellence Award", org: "Purdue University", color: T.accent, link: "https://engineering.purdue.edu/Engr/People/Awards/Graduate/ptRecipientListing?group_id=237384&show_sub_groups=1" },
             { title: "2025 Materials Informatics Fellowship", org: "GE Aerospace, Summer 2025 Internship", color: T.blue },
           ].map((award, i) => (
