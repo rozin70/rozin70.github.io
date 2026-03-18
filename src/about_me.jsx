@@ -549,11 +549,8 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
             <div style={{ fontSize: 14, color: T.muted, marginBottom: 12 }}>
               Mechanical Engineer • Air Resources Engineer Trainee, NYSDEC
             </div>
-            <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap", marginBottom: 16 }}>
-              <LinkBtn href="mailto:enamulrozin4@gmail.com">enamulrozin4@gmail.com</LinkBtn>
-              <LinkBtn href="mailto:enamulrozin4@gmail.com">enamulrozin4@gmail.com</LinkBtn>
-            </div>
-            <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
+            <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap", marginBottom: 16 }}>
+              <LinkBtn href="mailto:enamulrozin4@gmail.com">Email</LinkBtn>
               <LinkBtn href="https://github.com/rozin70">GitHub</LinkBtn>
               <LinkBtn href="https://scholar.google.com/citations?user=KNPyB20AAAAJ&hl=en">Google Scholar</LinkBtn>
               <LinkBtn href="https://www.linkedin.com/in/rozin1/">LinkedIn</LinkBtn>
