@@ -231,7 +231,7 @@ const PUBLICATIONS = [
   // ── 2025 ──
   {
     authors: "Rahman, Md Habibur, & Mannodi-Kanakkithodi, A.",
-    title: "DeFecT-FF: Accelerated Modeling of Defects in Cd-Zn-Te-Se-S Compounds Combining High-Throughput DFT and Machine Learning Force Fields",
+    title: "DeFecT-FF: Accelerated Modeling of Defects in Cd-Zn-Te-Se-S Compounds Combining High-Throughput DFT and Finite Element Analysis",
     journal: "arXiv preprint arXiv:2510.23514",
     year: "2025", me: true, citations: 0,
     abstract: "We present DeFecT-FF, a machine learning force field trained on high-throughput DFT data for modeling point defects in mixed II-VI semiconductor compounds (Cd-Zn-Te-Se-S). By combining systematic DFT calculations across multiple compositions with an equivariant graph neural network architecture, we achieve DFT-level accuracy at a fraction of the computational cost, enabling rapid screening of defect formation energies and migration barriers across the full compositional space.",
@@ -550,41 +550,41 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
               Mechanical Engineer • Air Resources Engineer Trainee, NYSDEC
             </div>
             <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap", marginBottom: 16 }}>
-              <LinkBtn href="mailto:rahma103@purdue.edu">rahma103@purdue.edu</LinkBtn>
-              <LinkBtn href="mailto:imd.habiburrahman@gmail.com">imd.habiburrahman@gmail.com</LinkBtn>
+              <LinkBtn href="mailto:enamulrozin4@gmail.com">enamulrozin4@gmail.com</LinkBtn>
+              <LinkBtn href="mailto:enamulrozin4@gmail.com">enamulrozin4@gmail.com</LinkBtn>
             </div>
             <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
               <LinkBtn href="https://github.com/rozin70">GitHub</LinkBtn>
-              <LinkBtn href="https://scholar.google.com/citations?user=vkAPzB0AAAAJ&hl=en">Google Scholar</LinkBtn>
-              <LinkBtn href="https://www.linkedin.com/in/habibur-rahman-55a932120/">LinkedIn</LinkBtn>
-              <LinkBtn href="https://nanohub.org/members/274968/contributions">nanoHUB</LinkBtn>
-              <LinkBtn href="https://github.com/rozin70/DeepMSE">Tutorial</LinkBtn>
+              <LinkBtn href="https://scholar.google.com/citations?user=KNPyB20AAAAJ&hl=en">Google Scholar</LinkBtn>
+              <LinkBtn href="https://www.linkedin.com/in/rozin1114">LinkedIn</LinkBtn>
+              <LinkBtn href="https://github.com/rozin70">nanoHUB</LinkBtn>
+              <LinkBtn href="https://github.com/rozin70">Tutorial</LinkBtn>
             </div>
           </Card>
 
           <SectionTitle>Summary</SectionTitle>
           <Card>
             <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 2.0, fontSize: 14, listStyleType: "disc" }}>
-              <li>4+ years of experience in data-driven materials discovery and atomistic modeling, with publications in top-tier journals.</li>
-              <li>3+ years of developing and deploying AI models and open science tools (e.g., nanoHUB).</li>
-              <li>Recipient of the 2025 MRS Graduate Student Award, Boston.</li>
-              <li>Recipient of the Vashti L. Magoon Research Excellence Award from Purdue University.</li>
-              <li>Recipient of high-performance computing allocations from NSF ACCESS and Argonne National Laboratory.</li>
-              <li>Recipient of the Materials Informatics Fellowship from GE Aerospace for Summer 2025 internship.</li>
-              <li>Winner of the 2025 AI & ML for Microscopy Hackathon — Toyota Research Institute Prize.</li>
-              <li>Winner of the 2025 LLM Hackathon for Applications in Materials Science and Engineering — Abstrax Prize.</li>
-              <li>Winner of the 2025 NanoArtography Competition — promoting nanoscience through art.</li>
+              <li>Mechanical Engineer with an MS in Mechanical Engineering and strong experience in mechanical system design, analysis, and quality assurance.</li>
+              <li>Currently working as an Air Resources Engineer Trainee at the New York State Department of Environmental Conservation (NYSDEC).</li>
+              <li>Experienced in additive manufacturing, ultrasonic non-destructive testing, and real-time quality monitoring of manufacturing systems.</li>
+              <li>Skilled in CAD and simulation tools including SolidWorks, Creo, Siemens NX, COMSOL, ABAQUS, and ANSYS.</li>
+              <li>Worked on experimental and simulation-based projects involving particle removal, pharmaceutical tablet quality testing, and additive manufacturing process analysis.</li>
+              <li>Strong technical background in Python, MATLAB, C++, LabVIEW, and engineering-focused problem solving.</li>
+              <li>Earned an MS in Mechanical Engineering from Clarkson University with a 4.00/4.00 GPA.</li>
+              <li>U.S. Permanent Resident based in Utica, New York.</li>
+              <li>Focused on practical engineering problems across design, compliance, manufacturing, and quality assurance.</li>
             </ul>
           </Card>
 
           <SectionTitle color={T.blue}>Research Keywords</SectionTitle>
           <Card>
             <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 2.0, fontSize: 14, listStyleType: "disc", color: T.ink }}>
-              <li>Modelling & Simulations of Materials</li>
-              <li>AI/ML for Accelerated Materials Discovery</li>
-              <li>Defect Engineering in Semiconductors</li>
-              <li>Photovoltaics</li>
-              <li>Machine Learning Force Fields</li>
+              <li>Mechanical Design</li>
+              <li>Additive Manufacturing</li>
+              <li>Ultrasonic NDT</li>
+              <li>Environmental Compliance</li>
+              <li>Finite Element Analysis</li>
             </ul>
           </Card>
 
@@ -701,7 +701,7 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
               <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4, fontSize: 12, lineHeight: 1.8, color: T.ink }}>
                 <div>High-Throughput DFT Databases</div>
                 <div>Graph Neural Networks (GNN)</div>
-                <div>Machine Learning Force Fields</div>
+                <div>Finite Element Analysis</div>
                 <div>Active Learning & Uncertainty Quantification</div>
                 <div>LLM-Based Data Mining (LangGraph)</div>
               </div>
@@ -738,7 +738,7 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
                 <span style={{ fontSize: 12, color: T.muted }}>Aug 2022 – Present</span>
               </div>
               <div style={{ fontSize: 13, color: T.muted, marginTop: 2 }}>
-                Modeling and Simulations of Semiconductors for Photovoltaics
+                Modeling and Simulations of Semiconductors for Environmental Compliance
               </div>
               <div style={{ fontSize: 12, color: T.accent, marginTop: 2 }}>West Lafayette, Indiana</div>
             </div>
@@ -755,7 +755,7 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
           <div style={{
             display: "flex", gap: 12, marginBottom: 20, flexWrap: "wrap",
           }}>
-            <a href="https://scholar.google.com/citations?user=vkAPzB0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style={{
+            <a href="https://scholar.google.com/citations?user=KNPyB20AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style={{
               flex: "1 1 200px", padding: "16px 20px", borderRadius: 12,
               background: `linear-gradient(135deg, ${T.accent}12, ${T.blue}12)`,
               border: `1.5px solid ${T.accent}30`, textDecoration: "none",
@@ -840,11 +840,11 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
             <div style={{ fontSize: 13, fontWeight: 600, color: T.teal }}>10+ Conference and Seminar Presentations</div>
           </Card>
           {[
-            { title: "Data-Driven Discovery of Ternary and Quaternary Chalcogenide Semiconductors for Photovoltaics", venue: "2025 MRS Fall Meeting & Exhibit, Boston, MA", date: "Dec 2025", link: "https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/presentations/view/2025-mrs-fall-meeting/2025-mrs-fall-meeting-4377025" },
+            { title: "Data-Driven Discovery of Ternary and Quaternary Chalcogenide Semiconductors for Environmental Compliance", venue: "2025 MRS Fall Meeting & Exhibit, Boston, MA", date: "Dec 2025", link: "https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/presentations/view/2025-mrs-fall-meeting/2025-mrs-fall-meeting-4377025" },
             { title: "Learning Defect Thermodynamics in Chalcogenide Semiconductors Using a Graph Neural Network Force Field", venue: "2025 MRS Fall Meeting & Exhibit, Boston, MA", date: "Dec 2025", link: "https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/presentations/view/2025-mrs-fall-meeting/2025-mrs-fall-meeting-4376462" },
             { title: "Rational Computational Design of Next-Generation Semiconductors (Invited Talk)", venue: "Cyberinfrastructure Symposium, Purdue University", date: "Oct 2025", link: "https://www.rcac.purdue.edu/symposiums/cyberinfrastructure/wl-2025" },
             { title: "Tailoring Semiconductor Defect Properties using Multi-fidelity Graph Neural Networks and Active Learning", venue: "APS Global Physics Summit, Anaheim, CA", date: "Mar 2025", link: "https://summit.aps.org/events/MAR-C49/5" },
-            { title: "Data-Driven Discovery of Novel Chalcogenides for Photovoltaics", venue: "2024 MRS Fall Meeting & Exhibit, Boston, MA", date: "Dec 2024", link: "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/symposium-sessions/presentations/view/2024-fall-meeting/2024-fall-meeting-4149616" },
+            { title: "Data-Driven Discovery of Novel Chalcogenides for Environmental Compliance", venue: "2024 MRS Fall Meeting & Exhibit, Boston, MA", date: "Dec 2024", link: "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/symposium-sessions/presentations/view/2024-fall-meeting/2024-fall-meeting-4149616" },
             { title: "Tailoring Semiconductor Defect Properties Using Graph Neural Networks and Active Learning", venue: "2024 MRS Fall Meeting & Exhibit, Boston, MA", date: "Dec 2024", link: "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/symposium-sessions/presentations/view/2024-fall-meeting/2024-fall-meeting-4148678" },
             { title: "Accelerating Defect Predictions in Semiconductors Using Crystal Graphs", venue: "MS&T Fall 2024 Meeting, Pittsburgh, PA", date: "Oct 2024", link: "https://www.programmaster.org/PM/PM.nsf/ApprovedAbstracts/C034017F310DDE4285258B0F00685A59?OpenDocument" },
             { title: "Accelerating Defect Predictions in Semiconductors Using Graph Neural Networks", venue: "AIMS, NIST", date: "July 2023" },
