@@ -631,29 +631,34 @@ export default function AboutMeModule({ onNavigate, dark, onToggleDark }) {
         <div>
           <SectionTitle color={T.blue}>Education</SectionTitle>
           <Card>
-            <div style={{ marginBottom: 20 }}>
+            <div style={{ marginBottom: 22 }}>
               <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 4 }}>
-                <strong style={{ fontSize: 15 }}>Purdue University</strong>
-                <span style={{ fontSize: 12, color: T.muted }}>Aug 2022 – Present</span>
+                <strong style={{ fontSize: 15 }}>Clarkson University</strong>
+                <span style={{ fontSize: 12, color: T.muted }}>Jan 2022 – Dec 2023</span>
               </div>
-              <div style={{ fontSize: 13, color: T.muted }}>West Lafayette, Indiana, USA</div>
-              <div style={{ fontSize: 14, marginTop: 4 }}>
-                PhD in Materials Engineering
+              <div style={{ fontSize: 13, color: T.muted }}>Potsdam, New York, USA</div>
+              <div style={{ fontSize: 14, marginTop: 4 }}>Master of Science in Mechanical Engineering</div>
+              <div style={{ marginTop: 8 }}>
+                <Tag color={T.green}>CGPA: 4.00 / 4.00</Tag>
               </div>
-              <Tag color={T.green}>CGPA: 3.91 / 4.00</Tag>
-              <div style={{ marginTop: 6 }}>
-                <a href="https://engineering.purdue.edu/MSE/people/ptGradStudent?id=277454" target="_blank" rel="noopener noreferrer" style={{
-                  fontSize: 11, color: T.accent, textDecoration: "none", fontWeight: 600,
-                }}>View Purdue Profile {"\u2192"}</a>
+              <div style={{ fontSize: 13, marginTop: 10, lineHeight: 1.7, color: T.ink }}>
+                <strong>Thesis:</strong> Real-Time Quality Assurance and Post-Production Processes in Additive Manufacturing with Ultrasonic Elastic and Thermo-Elastic Waves
+              </div>
+              <div style={{ fontSize: 13, marginTop: 8, lineHeight: 1.7, color: T.ink }}>
+                <strong>Relevant Coursework:</strong> Finite Element Method, Advanced CAD, Advanced Manufacturing Processes
               </div>
             </div>
-            <div style={{ borderTop: `1px solid ${T.border}`, paddingTop: 16 }}>
+
+            <div style={{ borderTop: `1px solid ${T.border}`, paddingTop: 18 }}>
               <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 4 }}>
                 <strong style={{ fontSize: 15 }}>Bangladesh University of Engineering and Technology (BUET)</strong>
-                <span style={{ fontSize: 12, color: T.muted }}>Mar 2016 – Mar 2021</span>
+                <span style={{ fontSize: 12, color: T.muted }}>Feb 2016 – Feb 2021</span>
               </div>
               <div style={{ fontSize: 13, color: T.muted }}>Dhaka, Bangladesh</div>
               <div style={{ fontSize: 14, marginTop: 4 }}>Bachelor of Science in Mechanical Engineering</div>
+              <div style={{ marginTop: 8 }}>
+                <Tag color={T.green}>CGPA: 3.46 / 4.00</Tag>
+              </div>
             </div>
           </Card>
         </div>
